@@ -1,4 +1,4 @@
-# Личный проект «{{projectTitle}}»
+# Личный проект «Глейси»
 
 * Студент: [Maria]({{https://htmlacademy.ru/profile/id2377367}}).
 * Наставник: `Arsenii Berezin`.
