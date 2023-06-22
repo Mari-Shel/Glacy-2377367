@@ -2,7 +2,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Inter-regular.woff2") format("woff2");
+  src: url("/fonts/Inter.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -61,4 +61,20 @@ body {
 .appointment-phone{
 
   color: #2D3440;
+}
+
+
+
+
+.advantages-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+
+}
+.present-item{
+
+  color: #2D3440;
+  background-color:  #FF7799;
 }
