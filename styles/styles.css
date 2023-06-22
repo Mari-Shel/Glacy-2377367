@@ -78,3 +78,13 @@ body {
   color: #2D3440;
   background-color:  #FF7799;
 }
+.popular-flavors{
+
+  background-color:#FCFCFC;
+}
+
+.delivery{
+  color: #2D3440;
+
+  background-image: url("../images/delivery.jpg");
+}
