@@ -88,3 +88,13 @@ body {
 
   background-image: url("../images/delivery.jpg");
 }
+.new_blog{
+  background-image: url("../images/new blog.jpg");
+  background-repeat: no-repeat;
+}
+.footer-contacts{
+  color: #2D3440;
+
+  background-image: url("../images/contacts.jpg");
+}
+}
