@@ -46,10 +46,7 @@ body {
   background-color: #FEAFC3;
 }
 
-.page-header {
-  color: #2D3440;
-  background: #FEAFC3;
-}
+
 
 .navigation-link {
   font-family: "Inter", sans-serif;
@@ -62,9 +59,6 @@ body {
   text-decoration: none;
 }
 
-.appointment-phone {
-  color: #2D3440;
-}
 
 .visually-hidden {
   font-family: "Inter", sans-serif;
@@ -84,10 +78,7 @@ body {
   line-height: 46px;
 }
 
-.present-item {
-  color: #2D3440;
-  background-color: #FF7799;
-}
+
 
 .popular-flavors {
   background-color: #FCFCFC;
@@ -116,55 +107,8 @@ body {
   background-color: #FFFFFF;
 }
 
-.button button-all{
-  color: #2D3440;
-  text-decoration: none;
-}
-.appointment-phone{
-  color: #2D3440;
-  text-decoration: none;
-}
-.visually-hidden{
-  color: #2D3440;
-  text-decoration: none;
-}
-.button-all{
-  color: #2D3440;
-  text-decoration: none;
-}
-.product-card-link{
-  color: #2D3440;
-  text-decoration: none;
-}
+
 .social-link{
-  color: #2D3440;
-  text-decoration: none;
-}
-.product-card-basket{
-  color: #2D3440;
-  text-decoration: none;
-}
-.footer-contacts-address-phone{
-  color: #2D3440;
-  text-decoration: none;
-}
-.footer-documentation{
-  color: #2D3440;
-  text-decoration: none;
-}
-.htmlacademy-link{
-  color: #2D3440;
-  text-decoration: none;
-}
-.pages-button{
-  color: #2D3440;
-  text-decoration: none;
-}
-.breadarumbs-link{
-  color: #2D3440;
-  text-decoration: none;
-}
-.sorting-link{
   color: #2D3440;
   text-decoration: none;
 }
