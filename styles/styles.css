@@ -46,8 +46,6 @@ body {
   background-color: #FEAFC3;
 }
 
-
-
 .navigation-link {
   font-family: "Inter", sans-serif;
   line-height: 20px;
@@ -58,7 +56,6 @@ body {
   background-color: #FEAFC3;
   text-decoration: none;
 }
-
 
 .visually-hidden {
   font-family: "Inter", sans-serif;
@@ -77,8 +74,6 @@ body {
   font-size: 36px;
   line-height: 46px;
 }
-
-
 
 .popular-flavors {
   background-color: #FCFCFC;
@@ -107,8 +102,7 @@ body {
   background-color: #FFFFFF;
 }
 
-
-.social-link{
+.social-link {
   color: #2D3440;
   text-decoration: none;
 }
