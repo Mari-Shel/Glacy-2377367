@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/inter-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-900.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D3440;
+  background-color: #FEAFC3;
+}
+
+.navigation-link {
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #2D3440;
+  font-weight: 400;
+  text-align: center;
+  color: #2D3440;
+  background-color: #FEAFC3;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #2D3440;
+  font-weight: 400;
+  text-align: center;
+  color: #2D3440;
+  background-color: #FEAFC3;
+  text-decoration: none;
+}
+
+.advantages-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.popular-flavors {
+  background-color: #FCFCFC;
+}
+
+.delivery {
+  color: #2D3440;
+  background-image: url("../images/delivery.jpg");
+}
+
+.new_blog {
+  background-image: url("../images/new blog.jpg");
+  background-repeat: no-repeat;
+}
+
+.footer-contacts {
+  color: #2D3440;
+  background-image: url("../images/contacts.jpg");
+}
+
+.information {
+  background-color: #FFFFFF;
+}
+
+.newsletter {
+  background-color: #FFFFFF;
+}
+
+.social-link {
+  color: #2D3440;
+  text-decoration: none;
+}
+.link{
+  color: #2D3440;
+  text-decoration: none;
+}
