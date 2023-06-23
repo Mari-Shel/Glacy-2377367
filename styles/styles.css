@@ -116,7 +116,55 @@ body {
   background-color: #FFFFFF;
 }
 
-a{
+.button button-all{
+  color: #2D3440;
+  text-decoration: none;
+}
+.appointment-phone{
+  color: #2D3440;
+  text-decoration: none;
+}
+.visually-hidden{
+  color: #2D3440;
+  text-decoration: none;
+}
+.button-all{
+  color: #2D3440;
+  text-decoration: none;
+}
+.product-card-link{
+  color: #2D3440;
+  text-decoration: none;
+}
+.social-link{
+  color: #2D3440;
+  text-decoration: none;
+}
+.product-card-basket{
+  color: #2D3440;
+  text-decoration: none;
+}
+.footer-contacts-address-phone{
+  color: #2D3440;
+  text-decoration: none;
+}
+.footer-documentation{
+  color: #2D3440;
+  text-decoration: none;
+}
+.htmlacademy-link{
+  color: #2D3440;
+  text-decoration: none;
+}
+.pages-button{
+  color: #2D3440;
+  text-decoration: none;
+}
+.breadarumbs-link{
+  color: #2D3440;
+  text-decoration: none;
+}
+.sorting-link{
   color: #2D3440;
   text-decoration: none;
 }
