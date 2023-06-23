@@ -115,3 +115,8 @@ body {
 .newsletter {
   background-color: #FFFFFF;
 }
+
+a{
+  color: #2D3440;
+  text-decoration: none;
+}
