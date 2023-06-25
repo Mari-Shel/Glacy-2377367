@@ -37,8 +37,15 @@
   src: url("../fonts/inter-900.woff2") format("woff2");
   font-display: swap;
 }
+html{
+  height: 100%;
+}
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -109,4 +116,7 @@ body {
 .link{
   color: #2D3440;
   text-decoration: none;
+}
+.main-container{
+  flex-grow: 1;
 }
