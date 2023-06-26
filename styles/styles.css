@@ -37,7 +37,8 @@
   src: url("../fonts/inter-900.woff2") format("woff2");
   font-display: swap;
 }
-html{
+
+html {
   height: 100%;
 }
 
@@ -53,20 +54,23 @@ body {
   background-color: #FEAFC3;
 }
 
-.navigation{
-display: flex;
+.navigation {
+  display: flex;
   width: 1170px;
   margin: 0 auto;
 }
+
 .navigation-list {
   width: 685px;
   margin: 0;
   padding: 0;
 }
+
 .navigation-user {
   max-width: 470px;
   margin-left: auto;
 }
+
 .navigation-link {
   font-family: "Inter", sans-serif;
   line-height: 20px;
@@ -98,6 +102,8 @@ display: flex;
 
 .popular-flavors {
   background-color: #FCFCFC;
+  display: flex;
+  flex-direction: column;
 }
 
 .delivery {
@@ -108,6 +114,20 @@ display: flex;
 .new_blog {
   background-image: url("../images/new blog.jpg");
   background-repeat: no-repeat;
+  display: flex;
+}
+
+.new_blog section {
+  width: 570px;
+  margin-right: 30px;
+}
+
+.new_blog section:last-child {
+  margin-right: 0;
+}
+
+.new-title {
+  max-width: 303px;
 }
 
 .footer-contacts {
@@ -121,27 +141,39 @@ display: flex;
 
 .newsletter {
   background-color: #FFFFFF;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-link {
   color: #2D3440;
   text-decoration: none;
 }
-.link{
+
+.link {
   color: #2D3440;
   text-decoration: none;
 }
-.main-container{
+
+.main-container {
   flex-grow: 1;
 }
+
 .page-container {
   width: 1170px;
   margin: 0 auto;
 }
+
 .logo {
   display: block;
 
 }
+
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -150,19 +182,77 @@ display: flex;
   text-align: center;
   color: #2D3440;
 }
-.index-columns{
+
+.index-columns {
   display: flex;
 }
+
 .page-footer-container {
   display: flex;
   width: 1170px;
   margin: 0 auto;
 }
-.social{
+
+.social {
   width: 104px;
   margin-right: 155px;
 }
-.footer-htmlacademy{
+
+.footer-htmlacademy {
   width: 200px;
   margin-left: auto;
+}
+
+.present {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.present-title {
+  text-align: center;
+}
+
+.present-list {
+  display: flex;
+  list-style: none;
+}
+
+.present-item {
+  width: 570px;
+}
+
+.popular-flavors-title {
+  text-align: center;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.popular-flavors-list {
+  display: flex;
+  list-style: none;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 40px;
+}
+
+.information-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.information-item {
+  width: 505px;
+}
+
+.section {
+  margin-bottom: 80px;
 }
