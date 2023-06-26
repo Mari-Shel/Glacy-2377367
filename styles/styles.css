@@ -182,9 +182,10 @@ body {
   text-align: center;
   color: #2D3440;
 }
-
 .index-columns {
   display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
 }
 
 .page-footer-container {
