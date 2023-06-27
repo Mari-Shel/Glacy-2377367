@@ -253,6 +253,10 @@ body {
 .popular-flavors-list {
   display: flex;
   list-style: none;
+  flex-wrap:wrap;
+}
+.product-card{
+  width: 270px;
 }
 
 .information {
@@ -277,5 +281,11 @@ body {
   margin-bottom: 80px;
 }
 .button{
-background-color: #FF2F64;
+padding: 32px;
+}
+.button-white{
+background-color: #FCFCFC;
+}
+.button-red{
+  background-color: #FF2F64;
 }
