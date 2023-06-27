@@ -324,4 +324,5 @@ body {
   display: flex;
   justify-content: space-between;
   width: 168px;
+  align-content: flex-end;
 }
