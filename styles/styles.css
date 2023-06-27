@@ -158,6 +158,7 @@ body {
 .link {
   color: #2D3440;
   text-decoration: none;
+  width: 506px;
 }
 
 .main-container {
@@ -221,6 +222,24 @@ body {
 
 .present-item {
   width: 570px;
+  margin: 30px;
+  box-sizing: border-box;
+  background-color: #FF7799;
+}
+.free-raspberries{
+
+  background-image: url("../images/raspberries.png");
+  background-repeat: no-repeat;
+
+
+
+}
+.free-marshmallow{
+
+  background-image: url("../images/marshmallow.png");
+  background-repeat: no-repeat;
+
+
 }
 
 .popular-flavors-title {
@@ -256,4 +275,7 @@ body {
 
 .section {
   margin-bottom: 80px;
+}
+.button{
+background-color: #FF2F64;
 }
