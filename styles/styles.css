@@ -82,21 +82,24 @@ body {
   background-color: #FEAFC3;
   text-decoration: none;
 }
-.breadarumbs{
+
+.breadarumbs {
   display: flex;
   width: 1170px;
   margin: 0 auto;
 }
-.breadarumbs-list{
+
+.breadarumbs-list {
   width: 335px;
   margin: 0;
   padding: 0;
 }
 
-.sorting{
+.sorting {
   display: flex;
   justify-content: space-between;
 }
+
 .visually-hidden {
   font-family: "Inter", sans-serif;
   line-height: 20px;
@@ -199,6 +202,7 @@ body {
   text-align: center;
   color: #2D3440;
 }
+
 .index-columns {
   display: flex;
   justify-content: space-between;
@@ -242,7 +246,8 @@ body {
   box-sizing: border-box;
   background-color: #FF7799;
 }
-.free-raspberries{
+
+.free-raspberries {
 
   background-image: url("../images/raspberries.png");
   background-repeat: no-repeat;
@@ -250,7 +255,8 @@ body {
 
 
 }
-.free-marshmallow{
+
+.free-marshmallow {
 
   background-image: url("../images/marshmallow.png");
   background-repeat: no-repeat;
@@ -269,10 +275,15 @@ body {
 .popular-flavors-list {
   display: flex;
   list-style: none;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+
 }
-.product-card{
+
+
+.product-card {
+  height: 332px;
   width: 270px;
+  text-align: center;
 }
 
 .information {
@@ -296,12 +307,21 @@ body {
 .section {
   margin-bottom: 80px;
 }
-.button{
-padding: 32px;
+
+.button {
+  padding: 32px;
 }
-.button-white{
-background-color: #FCFCFC;
+
+.button-white {
+  background-color: #FCFCFC;
 }
-.button-red{
+
+.button-red {
   background-color: #FF2F64;
+}
+
+.show-button {
+  display: flex;
+  justify-content: space-between;
+  width: 168px;
 }
