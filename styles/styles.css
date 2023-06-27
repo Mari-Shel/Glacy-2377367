@@ -90,11 +90,19 @@ body {
 }
 
 .breadarumbs-list {
-  width: 335px;
   margin: 0;
   padding: 0;
+  display: flex;
+  list-style: none;
 }
 
+.breadarumbs-item {
+  margin-right: 10px;
+}
+
+.breadarumbs-item:last-child {
+  margin-right: 0px;
+}
 .sorting {
   display: flex;
   justify-content: space-between;
@@ -177,7 +185,7 @@ body {
 .link {
   color: #2D3440;
   text-decoration: none;
-  width: 506px;
+
 }
 
 .main-container {
@@ -203,12 +211,6 @@ body {
   color: #2D3440;
 }
 
-.index-columns {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
-}
-
 .page-footer-container {
   display: flex;
   width: 1170px;
@@ -216,7 +218,7 @@ body {
 }
 
 .social {
-  width: 104px;
+  width: 105px;
   margin-right: 155px;
 }
 
@@ -228,7 +230,6 @@ body {
 .present {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .present-title {
@@ -238,6 +239,8 @@ body {
 .present-list {
   display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .present-item {
@@ -309,15 +312,20 @@ body {
 }
 
 .button {
-  padding: 32px;
 }
 
 .button-white {
   background-color: #FCFCFC;
+  align-self: center;
 }
 
 .button-red {
   background-color: #FF2F64;
+}
+
+.show {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .show-button {
@@ -325,4 +333,7 @@ body {
   justify-content: space-between;
   width: 168px;
   align-content: flex-end;
+  list-style: none;
 }
+
+.ololo {}
