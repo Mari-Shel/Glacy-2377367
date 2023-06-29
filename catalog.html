@@ -66,24 +66,35 @@
         <section class="sorting">
           <h2 class="sorting-title">Сливочное мороженое</h2>
           <section class="sorting-pop">
-          <p class="sorting-item">Сортировка:</p>
-          <a class="sorting-link link" href="">
-            <span class="sorting-hidden link">по популярности</span>
-          </a>
+            <div>
+              <span class="sorting-item">Сортировка:</span>
+              <select>
+                <option>По популярности</option>
+              </select>
+            </div>
+            
           <p class="sorting-item">Цена: 100 ₽ – 500 ₽</p>
           <a class="sorting-link link" href="">
             <span class="sorting-hidden link">регулятор</span>
           </a>
-          <p class="sorting-item">Жирность:</p>
-          <ul class="percent-list">
-            <li class="percent-item">0%</li>
-            <li class="percent-item">до 10%</li>
-            <li class="percent-item">до 30%</li>
-            <li class="percent-item">выше 30%</li>
-          </ul>
+          <div>
+            <p class="sorting-item">Жирность:</p>
+            <ul class="percent-list">
+              <li class="percent-item">
+                  <input id="null" type="radio">
+                  <label for="null">0%</label>
+              </li>
+              <li class="percent-item">до 10%</li>
+              <li class="percent-item">до 30%</li>
+              <li class="percent-item">выше 30%</li>
+            </ul>
+          </div>
+          
           <p class="sorting-item">Наполнители:</p>
           <ul class="fillers-list">
-            <li class="fillers-item">шоколадные</li>
+            <li class="fillers-item">
+              <input id="choko" type="checkbox">
+              <label for="choko">шоколадные</label></li>
             <li class="fillers-item">сахарные посыпки</li>
             <li class="fillers-item">фрукты</li>
             <li class="fillers-item">сиропы</li>
@@ -268,10 +279,14 @@
           </ul>
         </section>
         <section class="footer-information">
-          <a class="footer-documentation link" href="#">Для поставщиков</a>
-          <a class="footer-documentation link" href="#">О производстве</a>
-          <a class="footer-documentation link" href="#">Наши документы</a>
-          <a class="footer-documentation link" href="#">Экологические стандарты</a>
+          <div class="info-left">
+            <a class="footer-documentation footer-documentation-active link" href="#">Для поставщиков</a>
+            <a class="footer-documentation link" href="#">О производстве</a>
+          </div>
+          <div class="info-right">
+            <a class="footer-documentation link" href="#">Наши документы</a>
+            <a class="footer-documentation link" href="#">Экологические стандарты</a>
+          </div>
         </section>
         <section class="footer-htmlacademy">
           <img class="footer-htmlacademy-logo" src="images/logo_htmlacademy .svg" alt=".html academy».">
