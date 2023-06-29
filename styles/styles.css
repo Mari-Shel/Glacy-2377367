@@ -408,6 +408,9 @@ display: flex;
 .button-red {
   background-color: #FF2F64;
 }
+.button{
+  padding: 12px 32px;
+}
 
 .show {
   display: flex;
