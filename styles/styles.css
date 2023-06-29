@@ -186,15 +186,22 @@ display: flex;
   background-image: url("../images/delivery.jpg");
   margin-top: 80px;
   margin-bottom: 80px;
+padding-left: 100px;
+
 }
 .delivery-info{
   display: flex;
+
+
+  align-items: center;
 }
 .appointment{
   background-color: #FFFFFF;
+  margin: 64px 64px 64px 0;
 }
 
 .contacts {
+  display: flex;
   color: #2D3440;
   background-image: url("../images/contacts.jpg");
   background-repeat: no-repeat;
