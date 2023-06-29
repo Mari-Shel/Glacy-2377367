@@ -442,6 +442,10 @@ display: flex;
 .show {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+.pages-button {
+  padding-left: 8px;
 }
 
 .show-button {
