@@ -9,11 +9,13 @@
 
   <body>
     <header class="page-header">
+      <a class="logo" href="#">
+      <img class="logo" src="images/logo.svg" alt="Gllassy shop">
+    </a>
       <nav class="navigation">
+
         <ul class="navigation-list">
-          <li class="navigation-list-logo">
-            <img class="logo" src="images/logo.svg" alt="Gllassy shop">
-          </li>
+
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Каталог</a>
           </li>
@@ -24,30 +26,31 @@
             <a class="navigation-link" href="about.html">О компании</a>
           </li>
         </ul>
-        <div class="navigation-list navigation-user">
-          <a class="appointment-phone link" href="">+7 800 555-86-28</a>
-          <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <a class="navigation-link" href="">
-                <span class="visually-hidden">Поиск</span>
-              </a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="">Вход</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="">
-                <span class="visually-hidden">Корзина</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+
       </nav>
+      <div class="navigation-user">
+        <a class="appointment-phone link" href="">+7 800 555-86-28</a>
+        <ul class="navigation-list ">
+          <li class="navigation-item">
+            <a class="navigation-link" href="">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">Вход</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="">
+              <span class="visually-hidden">Корзина</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="main-container main-index">
       <div class="page-container">
         <h1 class="visually-hidden">Gllassy shop</h1>
-        <section class="advantages">
+        <section class="advantages-section">
           <h2 class="visually-hidden">Описание</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
@@ -58,7 +61,7 @@
                   и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
                 <button class="button-white button">Заказать</button>
               </div>
-              <div>
+              <div class="advantages-images">
                 <img src="images/ice-cream.png" alt="мороженое">
               </div>
             </li>
@@ -240,6 +243,7 @@
                 <button class="button-red button" type="submit">Отправить</button>
               </form>
             </section>
+          </section>
           </section>
           <section class="delivery-contacts">
             <div class="wrapper">
