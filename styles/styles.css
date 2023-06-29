@@ -61,7 +61,6 @@ width: 1170px;
 
 .navigation {
   display: flex;
-
   margin: 0 auto;
 }
 
@@ -88,11 +87,9 @@ display: flex;
   color: #2D3440;
   font-weight: 400;
   text-align: center;
-  color: #2D3440;
   background-color: #FEAFC3;
   text-decoration: none;
 }
-
 
 .navigation-user .navigation-link {
   min-width: 16px;
@@ -125,15 +122,18 @@ display: flex;
 }
 
 .breadarumbs-item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .sorting-item {
   margin: 0;
   padding: 0;
   display: flex;
-  list-style: none;
+  flex-direction: column;
 }
-
+.sorting-pop{
+  display: flex;
+  flex-direction: column;
+}
 
 .visually-hidden {
   font-family: "Inter", sans-serif;
@@ -141,20 +141,14 @@ display: flex;
   color: #2D3440;
   font-weight: 400;
   text-align: center;
-  color: #2D3440;
   background-color: #FEAFC3;
   text-decoration: none;
 }
-
-
 .popular-flavors {
   background-color: #FCFCFC;
   display: flex;
   flex-direction: column;
 }
-
-
-
 .new_blog {
   background-image: url("../images/new blog.jpg");
   background-repeat: no-repeat;
@@ -184,7 +178,6 @@ display: flex;
   justify-content: space-between;
 }
 .delivery {
-
   color: #2D3440;
   background-image: url("../images/delivery.jpg");
   margin-top: 80px;
@@ -194,8 +187,6 @@ padding-left: 100px;
 }
 .delivery-info{
   display: flex;
-
-
   align-items: center;
 }
 .appointment{
@@ -219,12 +210,9 @@ list-style-type: none;
   list-style-type: none;
 }
 
-
 .information {
   background-color: #FFFFFF;
 }
-
-
 
 .social-link {
   color: #2D3440;
@@ -234,10 +222,7 @@ list-style-type: none;
 .link {
   color: #2D3440;
   text-decoration: none;
-
 }
-
-
 
 .page-container {
   width: 1170px;
@@ -254,8 +239,6 @@ margin-top: 24px;
   display: flex;
   margin-bottom: 26px;
   flex-direction: column;
-
-
 }
 
 .advantages-list {
@@ -269,7 +252,6 @@ margin-top: 24px;
 }
 .advantages-description {
   margin: 0;
-
 }
 
 .advantages-title {
@@ -288,7 +270,6 @@ flex-direction: row-reverse;
   display: flex;
   width: 1170px;
   margin: 0 auto;
-
 }
 .page-footer{
   display: flex;
@@ -313,7 +294,6 @@ display: flex;
   margin-right: 16px;
   margin-bottom: 16px;
 }
-
 
 .footer-documentation{
   display: flex;
@@ -368,20 +348,13 @@ display: flex;
 }
 
 .free-raspberries {
-
   background-image: url("../images/raspberries.png");
   background-repeat: no-repeat;
-
-
-
 }
 
 .free-marshmallow {
-
   background-image: url("../images/marshmallow.png");
   background-repeat: no-repeat;
-
-
 }
 
 .popular-flavors-title {
@@ -396,7 +369,6 @@ display: flex;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-
 }
 
 
@@ -427,8 +399,6 @@ display: flex;
 .section {
   margin-bottom: 80px;
 }
-
-
 
 .button-white {
   background-color: #FCFCFC;
