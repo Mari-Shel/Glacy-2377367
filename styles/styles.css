@@ -125,6 +125,7 @@ display: flex;
   margin-right: 0;
 }
 .sorting-item {
+  display: flex;
   margin: 0;
   padding: 0;
   display: flex;
@@ -133,6 +134,22 @@ display: flex;
 .sorting-pop{
   display: flex;
   flex-direction: column;
+
+}
+.percent-list{
+  display: flex;
+  list-style-type: none;
+}
+.percent-item{
+  padding: 8px 16px;
+}
+.fillers-list{
+  display: flex;
+  list-style-type: none;
+
+}
+.fillers-item{
+  padding: 10px 16px;
 }
 
 .visually-hidden {
