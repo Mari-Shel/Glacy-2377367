@@ -179,11 +179,6 @@ margin-bottom: 40px;
   text-decoration: none;
 }
 
-.popular-flavors {
-  background-color: #FCFCFC;
-  display: flex;
-  flex-direction: column;
-}
 
 .new_blog {
   background-image: url("../images/new blog.jpg");
@@ -476,7 +471,7 @@ width: 500px;
 */
 .popular-flavors-list {
   display: grid;
-  grid-template-columns: repeat(4, 220px);
+  grid-template-columns: repeat(4, 270px);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -488,6 +483,7 @@ width: 500px;
   height: 332px;
   width: 270px;
   text-align: center;
+  background-color: #FCFCFC;
 }
 
 
