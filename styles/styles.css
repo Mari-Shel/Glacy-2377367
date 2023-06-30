@@ -460,7 +460,7 @@ width: 500px;
 .title-center {
   text-align: center;
 }
-
+/*
 .popular-flavors-list {
   display: flex;
   list-style: none;
@@ -473,6 +473,23 @@ width: 500px;
   width: 270px;
   text-align: center;
 }
+*/
+.popular-flavors-list {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  height: 332px;
+  width: 270px;
+  text-align: center;
+}
+
 
 .information {
   display: flex;
