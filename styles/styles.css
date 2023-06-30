@@ -128,7 +128,7 @@ body {
 
 
 .sorting-title{
-margin-bottom: 40px;
+
 }
 
 .sorting-item {
@@ -144,25 +144,29 @@ margin-bottom: 40px;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 823px;
+  justify-content: space-between;
 }
 .sorting-item{
-  margin-left: 42px;
+
 }
 
 .percent-list {
   display: flex;
   list-style-type: none;
+ padding: 0;
   margin: 0;
 }
 
 .percent-item {
-  padding: 8px 16px;
+
 }
 
 .fillers-list {
   display: flex;
   list-style-type: none;
-
+  margin: 0;
+  padding: 0;
+}
 }
 
 .fillers-item {
@@ -250,6 +254,7 @@ width: 500px;
   display: flex;
   flex-direction: column;
   margin: 0;
+  margin-bottom: 20px;
 }
 .appointment-form  .info {
   display: none;
@@ -455,24 +460,7 @@ width: 500px;
 .title-center {
   text-align: center;
 }
-/*
-.popular-flavors-list {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-}
 
-
-.product-card {
-  height: 332px;
-  width: 270px;
-  text-align: center;
-}
-.popular-flavors {
-  display: flex;
-  flex-direction: column;
-}
-*/
 .popular-flavors-list {
   display: grid;
   grid-template-columns: repeat(4, 270px);
@@ -484,7 +472,7 @@ width: 500px;
 }
 
 .product-card {
-  height: 332px;
+  min-height: 332px;
   width: 270px;
   text-align: center;
   background-color: #FCFCFC;
