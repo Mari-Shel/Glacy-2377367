@@ -120,7 +120,7 @@
         <h3 class="popular-flavors-title">Попробуйте самые популярные вкусы нашего мороженого</h3>
         <ul class="popular-flavors-list">
           <li class="product-card">
-            <div class="product-card">
+            <div class="product-card-container">
               <a class="product-card-link link" href="product.html">
                 <img class="product-card-image" src="images/raspberry.jpg" alt="Малинка">
                 <h3 class="product-card-title">Малинка</h3>
@@ -131,7 +131,7 @@
             </div>
           </li>
           <li class="product-card">
-            <div class="product-card">
+            <div class="product-card-container">
               <a class="product-card-link link" href="product.html">
                 <img class="product-card-image" src="images/pistachio.jpg" alt="Фисташка">
                 <h3 class="product-card-title">Фисташка</h3>
@@ -142,7 +142,7 @@
             </div>
           </li>
           <li class="product-card">
-            <div class="product-card">
+            <div class="product-card-container">
               <a class="product-card-link link" href="product.html">
                 <img class="product-card-image" src="images/blueberry.jpg" alt="Черника">
                 <h3 class="product-card-title">Черника</h3>
@@ -177,14 +177,14 @@
               использованием современного оборудования и проверенных временем технологий.</p>
           </li>
           <li class="information-item">
-            <p class="information-description">Для приготовления мороженого используются сливки и молоко высочайшего
-              качества. Все ингредиенты
-              и добавки произведены из натурального сырья.</p>
-          </li>
-          <li class="information-item">
             <p class="information-description">Закупка ингредиентов производится только
               у проверенных фермерских хозяйств, с которыми
               нас связывает долговременное сотрудничество.</p>
+          </li>
+          <li class="information-item">
+            <p class="information-description">Для приготовления мороженого используются сливки и молоко высочайшего
+              качества. Все ингредиенты
+              и добавки произведены из натурального сырья.</p>
           </li>
           <li class="information-item">
             <p class="information-description">Доставка нашего мороженого осуществляется в специальном термопаке,
@@ -203,7 +203,7 @@
             в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды.
             Честно =)</h5>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email
+            <label for="newsletter-email">
               <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
                 id="newsletter-email" required>
             </label>
@@ -222,24 +222,21 @@
           <section class="appointment">
             <p>Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
             <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-              <p class="appointment-form-date">
+              <p class="field-group appointment-form-date">
                 <label class="form-label" for="appointment-date">Дата</label>
                 <input type="date" id="appointment-date" name="appointment-date" placeholder="01.01.2020">
               </p>
-              <p class="appointment-form-phone">
-                <label for="appointment-form-phone">
-                  Телефон
-                </label>
-                <input type="tel" id="appointment-form-phone" name="appointment-form-phone"
-                  placeholder="+7 800 000-00-00">
+              <p class="field-group appointment-form-phone">
+                <label class="form-label appointment-form" for="appointment-phone">Телефон</label>
+                <input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
               </p>
-              <p class="appointment-form-address">
-                <label for="appointment-address">
+              <p class="field-group appointment-form-address">
+                <label for="form-label appointment-address">
                   Адрес
                 </label>
                 <input class="field" type="text" id="appointment-address" name="appointment-address">
               </p>
-              <button class="button-red button" type="submit">Отправить</button>
+              <button class="button-red button appointment-submit" type="submit">Отправить</button>
             </form>
           </section>
         </section>

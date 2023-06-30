@@ -128,7 +128,7 @@ body {
 
 
 .sorting-title{
-margin-bottom: 40px;
+
 }
 
 .sorting-item {
@@ -144,25 +144,29 @@ margin-bottom: 40px;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 823px;
+  justify-content: space-between;
 }
 .sorting-item{
-  margin-left: 42px;
+
 }
 
 .percent-list {
   display: flex;
   list-style-type: none;
+ padding: 0;
   margin: 0;
 }
 
 .percent-item {
-  padding: 8px 16px;
+
 }
 
 .fillers-list {
   display: flex;
   list-style-type: none;
-
+  margin: 0;
+  padding: 0;
+}
 }
 
 .fillers-item {
@@ -179,11 +183,6 @@ margin-bottom: 40px;
   text-decoration: none;
 }
 
-.popular-flavors {
-  background-color: #FCFCFC;
-  display: flex;
-  flex-direction: column;
-}
 
 .new_blog {
   background-image: url("../images/new blog.jpg");
@@ -233,6 +232,32 @@ margin-bottom: 40px;
   background-color: #FFFFFF;
   margin: 64px 64px 64px 0;
   padding: 40px;
+width: 500px;
+}
+
+.appointment-form {
+  display: grid;
+  grid-template-columns: 117px 287px;
+  gap: 16px;
+}
+
+.appointment-form-address{
+  grid-column: 1 / -1;
+}
+
+.appointment-submit {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.appointment-form  .info {
+  display: none;
 }
 
 .delivery-contacts {
@@ -437,17 +462,22 @@ margin-bottom: 40px;
 }
 
 .popular-flavors-list {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 20px;
 }
-
 
 .product-card {
-  height: 332px;
+  min-height: 332px;
   width: 270px;
   text-align: center;
+  background-color: #FCFCFC;
 }
+
 
 .information {
   display: flex;
