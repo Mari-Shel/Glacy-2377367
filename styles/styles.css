@@ -145,6 +145,9 @@ margin-bottom: 40px;
   flex-wrap: wrap;
   max-width: 823px;
 }
+.sorting-item{
+  margin-left: 42px;
+}
 
 .percent-list {
   display: flex;
