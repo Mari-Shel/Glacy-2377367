@@ -126,6 +126,11 @@ body {
   margin-right: 0;
 }
 
+
+.sorting-title{
+margin-bottom: 40px;
+}
+
 .sorting-item {
   display: flex;
   margin: 0;
@@ -144,6 +149,7 @@ body {
 .percent-list {
   display: flex;
   list-style-type: none;
+  margin: 0;
 }
 
 .percent-item {
