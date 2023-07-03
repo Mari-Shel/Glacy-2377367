@@ -303,6 +303,14 @@ width: 500px;
   list-style-type: none;
 }
 
+.about-text{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  max-width:  263px;
+}
+
 .information {
   background-color: #FFFFFF;
 }
@@ -369,10 +377,10 @@ text-align: center;
 
 .advantages-title {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  max-width: 254px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  max-width: 470px;
 
 }
 
