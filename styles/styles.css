@@ -128,7 +128,12 @@ body {
 
 
 .sorting-title{
-
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  max-width:  379px;
+}
 }
 
 .sorting-item {
@@ -167,7 +172,6 @@ body {
   margin: 0;
   padding: 0;
 }
-}
 
 .fillers-item {
   padding: 10px 16px;
@@ -201,6 +205,20 @@ body {
 
 .new-title {
   max-width: 303px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 32px;
+  margin-top: 65px;
+}
+.mini-title{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 32px;
+  margin-top: 32px;
 }
 
 .newsletter {
@@ -226,6 +244,13 @@ body {
 .delivery-info {
   display: flex;
   align-items: center;
+}
+.delivery-title{
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  max-width:  356px;
 }
 
 .appointment {
@@ -282,6 +307,15 @@ width: 500px;
   background-color: #FFFFFF;
 }
 
+.information-title{
+  font-family: "Inter", sans-serif;
+font-weight: 900;
+font-size: 32px;
+line-height: 46px;
+max-width: 995px;
+text-align: center;
+}
+
 .social-link {
   color: #2D3440;
   text-decoration: none;
@@ -335,10 +369,10 @@ width: 500px;
 
 .advantages-title {
   font-family: "Inter", sans-serif;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 46px;
-  max-width: 470px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 254px;
 
 }
 
@@ -415,7 +449,14 @@ width: 500px;
 
 .present-title {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  max-width: 434px;
   text-align: center;
+  margin-left: 368px;
+  margin-bottom: 55px;
 }
 
 .present-list {
@@ -455,6 +496,13 @@ width: 500px;
 
 .popular-flavors-title {
   text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  max-width: 527px;
+  margin-left: 321px;
+  margin-bottom: 56px;
 }
 
 .title-center {
