@@ -551,10 +551,15 @@ text-align: center;
 
 .button-white {
   background-color: #FCFCFC;
+  color: #2D3440;
 }
 
 .button-red {
   background-color: #FF2F64;
+  color: #FCFCFC;
+}
+.Fillers-button{
+  color: #2D3440;
 }
 
 .button {
@@ -562,6 +567,12 @@ text-align: center;
   border: none;
   text-decoration: none;
   cursor: pointer;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .show {
