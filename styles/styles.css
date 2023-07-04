@@ -90,12 +90,16 @@ body {
   text-align: center;
   background-color: #FEAFC3;
   text-decoration: none;
+  font-size: 16px;
+
+  max-width:  147px;
 }
 
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 16px;
 }
+
 
 .main-container {
   flex-grow: 1;
@@ -134,7 +138,7 @@ body {
   line-height: 46px;
   max-width:  379px;
 }
-}
+
 
 .sorting-item {
   display: flex;
@@ -174,7 +178,7 @@ body {
 }
 
 .fillers-item {
-  padding: 10px 16px;
+
 }
 
 .visually-hidden {
@@ -253,11 +257,27 @@ body {
   max-width:  356px;
 }
 
+.delivery-description{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width:  371px;
+}
+
 .appointment {
   background-color: #FFFFFF;
   margin: 64px 64px 64px 0;
   padding: 40px;
 width: 500px;
+}
+
+.appointment-connection{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width:  380px;
 }
 
 .appointment-form {
@@ -324,6 +344,30 @@ max-width: 995px;
 text-align: center;
 }
 
+.information-description{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 442px;
+}
+
+.contacts-link{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 203px;
+}
+
+.contacts-link-address{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 179px;
+}
+
 .social-link {
   color: #2D3440;
   text-decoration: none;
@@ -371,8 +415,13 @@ text-align: center;
 
 .advantages-description {
   margin: 0;
-  max-width: 430px;
+  max-width: 429px;
   margin-bottom: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
 }
 
 .advantages-title {
@@ -382,80 +431,24 @@ text-align: center;
   line-height: 46px;
   max-width: 470px;
 
+
 }
+
 
 .advantages-images {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.page-footer-container {
-  display: flex;
-  width: 1170px;
-  margin: 0 auto;
-}
-
-.page-footer {
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 14px;
-}
-
-.footer-information {
-  display: flex;
-  flex-wrap: wrap;
-  width: 356px;
-  justify-content: space-between;
-}
-
-.footer-social-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.footer-social-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.footer-social-item {
-
-  width: 8px;
-  height: 8px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-}
-
-.footer-documentation {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-}
-.footer-documentation-active {
-  font-weight: 700;
-}
-
-.social {
-  width: 105px;
-  margin-right: 155px;
-}
-
-.footer-htmlacademy {
-  width: 200px;
-  margin-left: auto;
-}
 
 .present {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
 }
 
-.present-title {
+.present-title-header{
   margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -463,9 +456,28 @@ text-align: center;
   line-height: 46px;
   max-width: 434px;
   text-align: center;
-  margin-left: 368px;
   margin-bottom: 55px;
 }
+
+.present-description{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 304px;
+  margin: 36px 36px 28px;
+}
+
+.present-title{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  max-width: 254px;
+  margin: 36px 36px 28px;
+}
+
+
 
 .present-list {
   display: flex;
@@ -482,7 +494,7 @@ text-align: center;
 
 .present-item {
   width: 570px;
-  padding: 36px;
+margin-left: 36px;
   box-sizing: border-box;
   background-color: #FF7799;
   margin-right: 30px;
@@ -490,6 +502,10 @@ text-align: center;
 
 .present-item:last-child {
   margin-right: 0;
+}
+
+.social-link{
+  margin: 0 36px 36px 36px;
 }
 
 .free-raspberries {
@@ -509,9 +525,15 @@ text-align: center;
   font-size: 32px;
   line-height: 46px;
   max-width: 527px;
-  margin-left: 321px;
+  margin: 0;
   margin-bottom: 56px;
 }
+.popular-flavors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 .title-center {
   text-align: center;
@@ -525,6 +547,7 @@ text-align: center;
   padding: 0;
   gap: 30px;
   margin-bottom: 20px;
+
 }
 
 .product-card {
@@ -532,8 +555,35 @@ text-align: center;
   width: 270px;
   text-align: center;
   background-color: #FCFCFC;
+
 }
 
+.product-card-title{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 190px;
+}
+
+.product-card-description{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 190px;
+}
+
+.product-card-price{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 85px;
+  text-align: left;
+}
 
 .information {
   display: flex;
@@ -618,4 +668,85 @@ text-align: center;
 
 .main-container {
   padding-top: 32px;
+}
+
+
+.page-footer-container {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.page-footer-title{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 506px;
+}
+
+.footer-information {
+  display: flex;
+  flex-wrap: wrap;
+  width: 356px;
+  justify-content: space-between;
+}
+
+.footer-social-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-social-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.footer-social-item {
+
+  width: 8px;
+  height: 8px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-documentation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 182px;
+}
+.footer-documentation-active {
+  font-weight: 700;
+}
+
+.social {
+  width: 105px;
+  margin-right: 155px;
+}
+
+.footer-htmlacademy {
+  width: 200px;
+  margin-left: auto;
+}
+
+.about-text-footer{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  max-width: 193px;
 }
