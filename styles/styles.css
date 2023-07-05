@@ -144,7 +144,6 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-direction: column;
 }
 
@@ -155,9 +154,9 @@ body {
   max-width: 823px;
   justify-content: space-between;
 }
-.sorting-item{
 
-}
+
+
 
 .percent-list {
   display: flex;
@@ -166,9 +165,9 @@ body {
   margin: 0;
 }
 
-.percent-item {
 
-}
+
+
 
 .fillers-list {
   display: flex;
@@ -177,9 +176,9 @@ body {
   padding: 0;
 }
 
-.fillers-item {
 
-}
+
+
 
 .visually-hidden {
   font-family: "Inter", sans-serif;
@@ -193,16 +192,20 @@ body {
 
 
 .new_blog {
+
+  display: flex;
+
+}
+.new_sorting{
   background-image: url("../images/new blog.jpg");
   background-repeat: no-repeat;
-  display: flex;
-  border-radius: 16px;
 }
 
 .new_blog section {
   width: 570px;
   margin-right: 30px;
   border-radius: 16px;
+
 }
 
 .new_blog section:last-child {
@@ -326,7 +329,7 @@ body {
 
 .contacts {
   background-color: #FFFFFF;
-  margin: 64px;
+
   padding: 40px;
   list-style-type: none;
   border-radius: 16px;
@@ -392,8 +395,10 @@ text-align: center;
 }
 
 .page-container {
-  width: 1170px;
-  margin: 0 auto;
+  display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
 .logo {
@@ -615,7 +620,11 @@ margin-left: 36px;
 .product-card-basket{
   background-image: url("../images/basket-white.svg");
   border-radius: 50px;
-    background: #FF2F64;
+    background-color: #FF2F64;
+    background-repeat: no-repeat;
+    display: block;
+    width: 32px;
+    height: 32px;
 }
 
 .information {
@@ -733,25 +742,6 @@ margin-left: 36px;
   justify-content: space-between;
 }
 
-.footer-social-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.footer-social-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.footer-social-item {
-
-  width: 8px;
-  height: 8px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-}
-
 .footer-documentation {
   display: flex;
   flex-wrap: wrap;
@@ -786,15 +776,84 @@ margin-left: 36px;
 
 }
 
-.social {
+.footer-social {
+      width: 105px;
+      text-align: right;
+      align-self: flex-start;
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+.footer-social-list {
+       display: flex;
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+       justify-content: space-between;
+       width: 104px;
+  }
+
+  .footer-social-item {
+       width: 8px;
+       height: 8px;
+       margin-right: 16px;
+       margin-bottom: 16px;
+  }
+
+  .footer-social-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      width: 104px;
+      height: 24px;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+       justify-content: center;
+  }
+  .footer-htmlacademy {
+    width: 200px;
+    margin-left: auto;
+  }
+
+.start-social {
   width: 105px;
-  margin-right: 155px;
+    text-align: right;
+    align-self: end;
+    display: flex;
+    justify-content: space-between;
+}
+.start-social-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 104px;
 }
 
-.footer-htmlacademy {
-  width: 200px;
-  margin-left: auto;
+.start-social-item {
+  width: 8px;
+  height: 8px;
+  margin-right: 16px;
+  margin-bottom: 16px;
 }
+
+.start-social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 104px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+justify-content: center;
+}
+
 
 .about-text-footer{
   font-family: "Inter", sans-serif;
@@ -841,6 +900,7 @@ margin-left: 36px;
   width: 14px;
   height: 15px;
   background-image: url('../images/entrance.svg');
+
 }
 
 .user-link {
@@ -857,6 +917,7 @@ margin-left: 36px;
   width: 14px;
   height: 15px;
   background-image: url('../images/basket.svg');
+  background-repeat: no-repeat;
 }
 
 
@@ -870,31 +931,19 @@ padding-right: 38px;
 
 }
 
-.footer-social-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 
-  margin: 0 auto;
-  width: 104px;
-  height: 24px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
-justify-content: center;
-}
 
-.footer-social-tg {
+.social-tg {
   background-image: url("../images/telegram.svg");
 
 }
 
-.footer-social-vk {
+.social-vk {
   background-image: url("../images/vk.svg");
 
 }
 
-.footer-social-youtube {
+.social-youtube {
   background-image: url("../images/youtube.svg");
 }
 
