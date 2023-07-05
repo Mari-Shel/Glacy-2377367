@@ -518,7 +518,7 @@ margin-left: 36px;
   margin-right: 0;
 }
 
-.social-link{
+.present-link{
   margin: 0 36px 36px 36px;
 }
 
@@ -612,6 +612,12 @@ margin-left: 36px;
   text-align: left;
 }
 
+.product-card-basket{
+  background-image: url("../images/basket-white.svg");
+  border-radius: 50px;
+    background: #FF2F64;
+}
+
 .information {
   display: flex;
   flex-direction: column;
@@ -659,6 +665,7 @@ margin-left: 36px;
   line-height: 20px;
   font-weight: 700;
   text-align: center;
+  border-radius: 30px;
 }
 
 .show {
@@ -889,4 +896,29 @@ justify-content: center;
 
 .footer-social-youtube {
   background-image: url("../images/youtube.svg");
+}
+
+.logo-ice{
+  background-image: url("../images/ice-cream-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  padding-left: 65px;
+}
+.logo-leaf{
+  background-image: url("../images/leaf.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  padding-left: 65px;
+}
+.logo-cow{
+  background-image: url("../images/cow.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  padding-left: 65px;
+}
+.logo-thermometer{
+  background-image: url("../images/thermometer.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  padding-left: 65px;
 }
