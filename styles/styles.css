@@ -816,3 +816,13 @@ margin-left: 36px;
   color: #2D3440;
   display: flex;
 }
+
+.user-item.basket:before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  width: 14px;
+  height: 15px;
+  background-image: url('../images/basket.svg');
+}
