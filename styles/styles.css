@@ -750,8 +750,26 @@ margin-left: 36px;
   line-height: 20px;
   max-width: 182px;
 }
+
+.footer-documentation{
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 182px;
+}
 .footer-documentation-active {
   font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 150px;
+  background-image: url("../images/heart.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+
+  padding-left: 15px;
+
 }
 
 .social {
