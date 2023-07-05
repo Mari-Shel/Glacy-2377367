@@ -855,3 +855,31 @@ padding-right: 38px;
 
 
 }
+
+.footer-social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+  width: 104px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+justify-content: center;
+}
+
+.footer-social-tg {
+  background-image: url("../images/telegram.svg");
+
+}
+
+.footer-social-vk {
+  background-image: url("../images/vk.svg");
+
+}
+
+.footer-social-youtube {
+  background-image: url("../images/youtube.svg");
+}
