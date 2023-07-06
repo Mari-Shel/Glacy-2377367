@@ -130,6 +130,18 @@ body {
   margin-right: 0;
 }
 
+.breadarumbs-link{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  max-width:  164px;
+}
+
+.breadarumbs-line {
+  text-decoration: underline;
+  color: #2D3440;
+}
 
 .sorting-title{
   font-family: "Inter", sans-serif;
@@ -155,25 +167,46 @@ body {
   justify-content: space-between;
 }
 
-
-
-
-.percent-list {
-  display: flex;
-  list-style-type: none;
- padding: 0;
-  margin: 0;
+.popularity{
+  position: relative;
+  padding: 6px 16px 6px 38px;
+  border-radius: 30px;
+  background: rgba(252, 252, 252, 0.3);
+  border: none;
 }
 
+.percent-list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  position: relative;
+  padding: 6px 16px 6px 38px;
+  border-radius: 30px;
+  background: rgba(252, 252, 252, 0.3);
+}
 
+.sorting-hidden{
+  position: relative;
+  padding: 6px 16px 6px 38px;
+  border-radius: 30px;
+  background: rgba(252, 252, 252, 0.3);
+}
 
-
+.Fillers-button{
+  position: relative;
+  padding: 6px 16px 6px 38px;
+  border-radius: 30px;
+  background: rgba(252, 252, 252, 0.3);
+}
 
 .fillers-list {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  position: relative;
+  padding: 6px 16px 6px 38px;
+  border-radius: 30px;
+  background: rgba(252, 252, 252, 0.3);
 }
 
 
