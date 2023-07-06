@@ -100,6 +100,18 @@ body {
   min-height: 16px;
 }
 
+.navigation-link:hover{
+  background-color: #FF2F64;
+  color: #FCFCFC;
+  border-radius: 30px;
+}
+
+.user-item:hover{
+  background-color: #FF2F64;
+  color: #FCFCFC;
+  border-radius: 30px;
+}
+
 
 .main-container {
   flex-grow: 1;
