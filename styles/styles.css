@@ -606,6 +606,9 @@ margin-left: 36px;
 .product-card-info {
   display: flex;
   justify-content: space-between;
+  width: 190px;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 .product-card-price{
@@ -617,14 +620,28 @@ margin-left: 36px;
   text-align: left;
 }
 
+.product-card-bask{
+  position: relative;
+  padding: 18px;
+  border-radius: 26px;
+  background-color: #FF2F64;;
+}
+
 .product-card-basket{
-  background-image: url("../images/basket-white.svg");
-  border-radius: 50px;
-    background-color: #FF2F64;
-    background-repeat: no-repeat;
-    display: block;
-    width: 32px;
-    height: 32px;
+  text-decoration: none;
+  color: #FCFCFC;
+  display: flex;
+}
+
+.product-card-bask:before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/basket-white.svg');
+  background-repeat: no-repeat;
 }
 
 .information {
