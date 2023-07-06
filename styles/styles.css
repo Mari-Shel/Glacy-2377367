@@ -100,7 +100,7 @@ body {
   min-height: 16px;
 }
 
-.navigation-link:hover{
+.navigation-item:hover{
   background-color: #FF2F64;
   color: #FCFCFC;
   border-radius: 30px;
