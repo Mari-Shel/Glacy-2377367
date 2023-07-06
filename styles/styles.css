@@ -457,6 +457,7 @@ text-align: center;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+  position: relative;
 }
 
 .advantages-list {
@@ -474,6 +475,19 @@ text-align: center;
   align-items: center;
   padding-left: 70px;
   margin-bottom: 24px;
+}
+
+.advantages::before{
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -9px;
+  background-color: #FCFCFC;
+  border: radius 50%;
+
 }
 
 .advantages-description {
