@@ -622,7 +622,8 @@ margin-left: 36px;
 
 .product-card-bask{
   position: relative;
-  padding: 18px;
+  width: 32px;
+  height: 32px;
   border-radius: 26px;
   background-color: #FF2F64;;
 }
@@ -736,6 +737,7 @@ margin-left: 36px;
   display: flex;
   width: 1170px;
   margin: 0 auto;
+ justify-content: space-between;
 }
 
 .page-footer {
@@ -832,7 +834,6 @@ margin-left: 36px;
   }
   .footer-htmlacademy {
     width: 200px;
-    margin-left: auto;
   }
 
 .start-social {
