@@ -618,11 +618,13 @@ body {
 .free-raspberries {
   background-image: url("../images/raspberries.png");
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 .free-marshmallow {
   background-image: url("../images/marshmallow.png");
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 .popular-flavors-title {
