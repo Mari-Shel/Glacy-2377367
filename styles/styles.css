@@ -398,11 +398,13 @@ body {
   background-image: url("../images/contacts.jpg");
   background-repeat: no-repeat;
   border-radius: 16px;
+  width: 1170px;
+  height: 492px;
 }
 
 .contacts {
   background-color: #FFFFFF;
-
+  margin: 64px;
   padding: 40px;
   list-style-type: none;
   border-radius: 16px;
