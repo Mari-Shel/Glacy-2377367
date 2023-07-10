@@ -131,14 +131,12 @@ body {
   border-radius: 30px;
 }
 
-.user-link:hover {
-  color: #FCFCFC;
-}
 
 .user-item:hover {
   background-color: #FF2F64;
   color: #FCFCFC;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .main-container {
@@ -183,6 +181,10 @@ body {
   color: #2D3440;
 }
 
+.sorting {
+  margin-bottom: 95px;
+}
+
 .sorting-title {
   font-family: "Inter", sans-serif;
   font-weight: 900;
@@ -197,6 +199,7 @@ body {
   margin: 0;
   padding: 0;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .sorting-pop {
@@ -220,7 +223,7 @@ body {
   list-style-type: none;
   margin: 0;
   position: relative;
-  padding: 6px 16px 6px 38px;
+  padding: 8px 24px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
 }
@@ -408,6 +411,11 @@ body {
   padding: 40px;
   list-style-type: none;
   border-radius: 16px;
+}
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
 }
 
 .contacts-item {
@@ -639,11 +647,12 @@ body {
 }
 
 .product-card {
-  min-height: 332px;
+  min-height: 281px;
   width: 270px;
   text-align: center;
   background-color: #FCFCFC;
   border-radius: 16px;
+  margin-bottom: 60px;
 }
 
 .product-card-title {
@@ -670,6 +679,7 @@ body {
   align-items: center;
   max-width: 190px;
   margin: 0 auto;
+  margin-top: -51px;
 }
 
 .product-card-info {
@@ -729,12 +739,15 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
 }
 
 .information-item {
   width: 505px;
   margin-right: 39px;
+}
+
+.information-item:nth-child(2n) {
+  margin-right: 0;
 }
 
 .section {
@@ -991,7 +1004,10 @@ body {
 
 .search {
   position: relative;
-  padding: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding: 0;
 }
 
 .user-item.search::before {
@@ -1007,26 +1023,19 @@ body {
   border-radius: 50%;
 }
 
-.login:hover .user-link {
+.user-item.search:hover:before {
+  background-image: url(../images/search-white.svg);
+}
+
+.login:hover .user-link,
+.basket:hover .user-link {
   background-color: #FF2F64;
   color: #FCFCFC;
-
 }
 
-/*
-.user-item:hover .search{
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-  background-image: url('../images/search-white.svg');
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  padding: 8px;
+.user-item.basket:hover:before {
+  background-image: url(../images/basket-white.svg);
 }
-*/
 
 .navigation-icon:hover {
   border-radius: 50%;
@@ -1049,18 +1058,10 @@ body {
   background-image: url('../images/entrance.svg');
 }
 
-.login:hover .user-link {
+.user-item.login:hover:before {
   background-image: url('../images/entrance-white.svg');
-  color: #FCFCFC;
-  content: '';
-  position: absolute;
-  top: 10px;
-  left: 18px;
-  width: 14px;
-  height: 15px;
-  background-repeat: no-repeat;
-  background-color: #FF2F64;
 }
+
 
 .user-link {
   text-decoration: none;
