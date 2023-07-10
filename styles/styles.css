@@ -212,7 +212,7 @@ body {
 
 .popularity {
   position: relative;
-  padding: 6px 16px 6px 38px;
+  padding: 8px 24px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
   border: none;
@@ -230,14 +230,14 @@ body {
 
 .sorting-hidden {
   position: relative;
-  padding: 6px 16px 6px 38px;
+  padding: 8px 24px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
 }
 
 .fillers-button {
   position: relative;
-  padding: 6px 16px 6px 38px;
+  padding: 8px 52px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
   align-self: end;
@@ -250,7 +250,7 @@ body {
   list-style-type: none;
   margin: 0;
   position: relative;
-  padding: 6px 16px 6px 38px;
+  padding: 8px 24px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
 }
