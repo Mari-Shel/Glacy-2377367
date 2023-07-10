@@ -727,10 +727,12 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: space-between;
 }
 
 .information-item {
   width: 505px;
+  margin-right: 39px;
 }
 
 .section {
