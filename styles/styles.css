@@ -251,6 +251,7 @@ body {
   align-self: end;
   padding: 6px 32px;
   color: #2D3440;
+  box-shadow: 0 0 0 2px #FCFCFC;
 }
 
 .fillers-list {
@@ -278,8 +279,10 @@ body {
 }
 
 .new_sorting {
-  background-image: url("../images/new blog.jpg");
+  background-image: url("../images/new-blog.jpg");
   background-repeat: no-repeat;
+  padding: 33px 0 67px 32px;
+  box-sizing: border-box;
 }
 
 .new_blog section {
@@ -291,11 +294,6 @@ body {
 
 .new_blog section:last-child {
   margin-right: 0;
-}
-
-.new_sorting {
-  padding: 33px 0 67px 32px;
-  box-sizing: border-box;
 }
 
 .new-title {
@@ -317,9 +315,10 @@ body {
 }
 
 .newsletter {
-  background-color: #FFFFFF;
   padding: 25px;
   box-sizing: border-box;
+  background-image: url("../images/sweet-mailing.png");
+  background-repeat: no-repeat;
 }
 
 .newsletter-form {
@@ -440,6 +439,13 @@ body {
 
 .information {
   background-color: #FFFFFF;
+  border-image: url("../images/wafer.png");
+  border: 20px solid transparent;
+}
+.information-border{
+
+  background-image: url(../images/wafer.png);
+
 }
 
 .information-title {
@@ -998,6 +1004,8 @@ body {
   width: 104px;
 }
 
+
+
 .start-social-item {
   width: 8px;
   height: 8px;
@@ -1016,6 +1024,11 @@ body {
   background-position: center;
   background-size: 24px 24px;
   justify-content: center;
+}
+
+.start-social-item:hover{
+  opacity: inherit;
+cursor: 0,5;
 }
 
 .about-text-footer {
