@@ -795,25 +795,28 @@ body {
 
 
 .arrow-right{
-  content: '';
-  position: relative;
-  padding-right: 38px;
-  background-image: url(../images/arrow-right-black.svg);
-  background-repeat: no-repeat;
+ padding-right: 38px;
+    background-image: url(../images/arrow-right-black.svg);
+     width: 6px;
+     height: 11px;
+     background-repeat: no-repeat;
   background-size: 6px 10px;
   background-position: center right 8px;
 }
 
 .list-pages-button{
   position:relative;
-
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  text-align: center;
 }
 
 .arrow-left{
   content: '';
   position: relative;
-  top: 7px;
-  left: -8px;
+  top: 1px;
+  left: 9px;
   width: 6px;
   height: 11px;
   background-image: url(../images/arrow-right-black.svg);
@@ -827,6 +830,7 @@ body {
   background-color: #FCFCFC;
   border-radius: 50%;
   cursor: pointer;
+
 }
 
 .button-look {
