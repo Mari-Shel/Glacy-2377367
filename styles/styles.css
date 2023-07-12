@@ -178,8 +178,8 @@ body {
 
 }
 
-.breadarumbs-item::not(:last-child)::after {
-  background-image: url(../images/double-arrow.svg);
+.breadarumbs-item:last-child::after {
+  background-image: none;
 }
 
 .breadarumbs-link {
