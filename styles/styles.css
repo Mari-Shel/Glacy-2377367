@@ -161,11 +161,25 @@ body {
 }
 
 .breadarumbs-item {
-  margin-right: 10px;
+
+  position: relative;
+    padding-right: 28px;
+}
+
+.breadarumbs-item :hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .breadarumbs-item:last-child {
   margin-right: 0;
+  text-decoration: underline;
+  color: #2D3440;
+
+}
+
+.breadarumbs-item::not(:last-child)::after {
+  background-image: url(../images/double-arrow.svg);
 }
 
 .breadarumbs-link {
@@ -176,18 +190,17 @@ body {
   max-width: 164px;
 }
 
-.breadarumbs-line {
-  text-decoration: underline;
-  color: #2D3440;
+.breadarumbs-item:after{
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+background-image: url(../images/double-arrow.svg);
+top: 10px;
+    left: 67px;
 }
 
-.double-arrow {
-  padding-right: 38px;
-  background-image: url(../images/double-arrow.svg);
-  background-repeat: no-repeat;
-  background-size: 7px 6px;
-  background-position: center right 12px;
-}
 
 .sorting {
   margin-bottom: 95px;
@@ -453,7 +466,7 @@ body {
 }
 
 .information-border {
-
+  padding: 56px 35px;
   background-color: #FFFFFF;
 
 }
@@ -734,6 +747,7 @@ body {
 
 .product-card-bask:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 ] .product-card-basket {
@@ -765,7 +779,7 @@ body {
 }
 
 .information-item {
-  width: 505px;
+  width: 506px;
   margin-right: 39px;
 }
 
@@ -942,6 +956,11 @@ body {
   max-width: 150px;
 }
 
+.footer-documentation:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .footer-social {
   width: 105px;
   text-align: right;
@@ -1069,6 +1088,10 @@ body {
   font-size: 12px;
   line-height: 16px;
   max-width: 193px;
+}
+.about-text-footer:hover{
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .appointment-phone {
