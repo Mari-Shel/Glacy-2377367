@@ -466,9 +466,11 @@ top: 10px;
 }
 
 .information-border {
-  padding: 56px 35px;
-  background-color: #FFFFFF;
-
+  padding: 40px 35px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .information-title {
@@ -831,16 +833,23 @@ top: 10px;
   align-items: center;
 }
 
-
+.show-button {
+  display: flex;
+  justify-content: space-between;
+  width: 168px;
+  align-content: flex-end;
+  list-style: none;
+  margin-right: 28px;
+}
 
 .arrow-right {
-  padding-right: 38px;
+
   background-image: url(../images/arrow-right-black.svg);
   width: 6px;
   height: 11px;
   background-repeat: no-repeat;
   background-size: 6px 10px;
-  background-position: center right 8px;
+
 }
 
 .list-pages-button {
@@ -876,13 +885,7 @@ top: 10px;
   margin-right: 335px;
 }
 
-.show-button {
-  display: flex;
-  justify-content: space-between;
-  width: 168px;
-  align-content: flex-end;
-  list-style: none;
-}
+
 
 .visually-hidden {
   position: absolute;
