@@ -594,6 +594,10 @@ top: 10px;
   background-repeat: no-repeat;
 }
 
+..slider-button:hover{
+  opacity: 0.5;
+}
+
 */
 
 
