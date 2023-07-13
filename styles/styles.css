@@ -103,9 +103,16 @@ body {
   color: #FCFCFC;
   border-radius: 30px;
 }
+.navigation-item:focus {
+  outline: 0.5;
+}
 
 .navigation-link:hover {
   color: #FCFCFC;
+}
+
+.navigation-link:focus {
+  outline: 0.5;
 }
 
 .arrow-down {
@@ -125,6 +132,10 @@ body {
 
 }
 
+.arrow-down:focus {
+  outline: 0.5;
+}
+
 .arrow-down:hover .navigation-link {
   background-color: #FF2F64;
   color: #FCFCFC;
@@ -137,6 +148,11 @@ body {
   color: #FCFCFC;
   border-radius: 30px;
   cursor: pointer;
+}
+
+.user-item:focus {
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .main-container {
@@ -169,6 +185,10 @@ body {
 .breadarumbs-item :hover{
   opacity: 0.5;
   cursor: pointer;
+}
+
+.breadarumbs-item:focus {
+  outline: 0.5;
 }
 
 .breadarumbs-item:last-child {
@@ -408,8 +428,19 @@ top: 10px;
 
 .appointment-submit {
   grid-column: 1 / -1;
-  justify-self: start;
+  justify-self:center;
+  margin-top: 14px;
+
 }
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 
 .field-group {
   display: flex;
@@ -417,6 +448,27 @@ top: 10px;
   margin: 0;
   margin-bottom: 20px;
 }
+
+.field {
+  margin: 0;
+  padding: 14px 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #B9B9B9;
+  border-radius: 5px;
+}
+
+.field:hover,
+.field:focus {
+  outline: 0.5;
+cursor: pointer;
+}
+
+
+
 
 .appointment-form .info {
   display: none;
@@ -529,6 +581,11 @@ top: 10px;
   margin-top: 24px;
 }
 
+.logo:focus {
+  outline: 0.5;
+}
+
+
 .advantages {
   display: flex;
   flex-direction: column;
@@ -578,8 +635,6 @@ top: 10px;
   flex-direction: row-reverse;
 }
 
-/*
-
 .slider-button {
   width: 38px;
   height: 38px;
@@ -592,25 +647,90 @@ top: 10px;
   background-image: url("../images/arrow-left-white.svg");
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  top: -228px;
 }
 
-..slider-button:hover{
+.slider-button:hover{
   opacity: 0.5;
 }
+
+
 .slider-prev {
   transform: rotate(180deg);
+  position: relative;
+    left: 29px;
+}
+
+.slider-button:focus {
+  outline: 0.5;
 }
 
 .slider-pagination {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-*/
 
+.slider-pagination-item {
+  align-items: end;
+    margin: 0 8px;
+    position: relative;
+    content: '';
+    justify-content: end;
+    display: flex;
+    left: -547px;
+}
+
+.slider-pagination-button {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(252, 252, 252, 0.3);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-pagination-button:hover {
+  opacity: 0.5;
+}
+
+.slider-pagination-button:focus {
+  outline: 0.5;
+}
+
+.slider-pagination-button-current {
+  background-color: #FCFCFC;
+}
+
+.slider-image{
+  display: block;
+  position: relative;
+  left: -95px;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.slider-next{
+  position: relative;
+    left: -223px;
+}
 
 .present {
   display: flex;
@@ -787,7 +907,12 @@ top: 10px;
   cursor: pointer;
 }
 
-] .product-card-basket {
+.product-card-bask:focus {
+  outline: 0.5;
+}
+
+
+.product-card-basket {
   text-decoration: none;
   color: #FCFCFC;
   display: flex;
@@ -862,6 +987,10 @@ top: 10px;
   opacity: 0.5;
 }
 
+.button:focus {
+  outline: 0.5;
+}
+
 .show {
   display: flex;
   justify-content: flex-end;
@@ -914,6 +1043,10 @@ top: 10px;
   border-radius: 50%;
   cursor: pointer;
 
+}
+
+.list-pages-button:focus {
+  outline: 0.5;
 }
 
 .button-look {
@@ -999,6 +1132,10 @@ top: 10px;
   cursor: pointer;
 }
 
+.footer-documentation:focus {
+  outline: 0.5;
+}
+
 .footer-social {
   width: 105px;
   text-align: right;
@@ -1040,6 +1177,10 @@ top: 10px;
 
 .footer-social-link:hover {
   opacity: 0.5;
+}
+
+.footer-social-link:focus {
+  outline: 0.5;
 }
 
 .footer-htmlacademy {
@@ -1119,6 +1260,9 @@ top: 10px;
 .start-social-item:hover {
   opacity: 0.5;
 }
+.start-social-item:focus {
+  outline: 0.5;
+}
 
 .about-text-footer {
   font-family: "Inter", sans-serif;
@@ -1130,6 +1274,10 @@ top: 10px;
 .about-text-footer:hover{
   opacity: 0.5;
   cursor: pointer;
+}
+
+.about-text-footer:focus {
+  outline: 0.5;
 }
 
 .appointment-phone {
@@ -1184,6 +1332,11 @@ top: 10px;
   color: #FCFCFC;
 }
 
+.login:focus .user-link,
+.basket:focus .user-link{
+  outline: 0.5;
+}
+
 .user-item.basket:hover:before {
   background-image: url(../images/basket-white.svg);
 }
@@ -1197,6 +1350,10 @@ top: 10px;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+}
+
+.navigation-icon:focus {
+  outline: 0.5;
 }
 
 .user-item.login:before {
@@ -1213,6 +1370,12 @@ top: 10px;
   background-image: url('../images/entrance-white.svg');
 }
 
+.appointment-phone:focus {
+  outline: 0.5;
+}
+
+.user-item:focus {
+  outline: 0.5;
 
 .user-link {
   text-decoration: none;
@@ -1240,6 +1403,10 @@ top: 10px;
   height: 15px;
   background-image: url('../images/basket-white.svg');
   background-repeat: no-repeat;
+}
+
+.user-item.basket:before:focus {
+  outline: 0.5;
 }
 
 .social-tg {

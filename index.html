@@ -62,46 +62,67 @@
                   и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.</p>
                 <button class="button-white button">Заказать</button>
               </div>
+
+
+
               <div class="advantages-images">
-                <img src="images/ice-cream.png" alt="мороженое">
+                <div class="slider-wrapper">
+                <img class="slider-image" src="images/ice-cream.png" alt="мороженое" width="327" height="507>
+              </div>
 
-                <!--
-
-<section class="gallery">
-        <h2 class="gallery-title">Выбор мороженого</h2>
-
-        <img class="images/ice-cream.png" src="#" alt="Примеры мороженого.">
-        <button class="slider-button slider-next" type="button">
-          <span class="visually-hidden">Предыдущее фото</span>
-        </button>
-        <button class="slider-button slider-prev" type="button">
-          <span class="visually-hidden">Следующее фото</span>
-        </button>
-
-        <ol class="slider-pagination">
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Клубничное мороженое</span>
+              <div class="slider-controls">
+            <button class="slider-button slider-next" type="button">
+              <span class="visually-hidden">Предыдущее фото</span>
             </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Сливочное мороженое</span>
+            <button class="slider-button slider-prev" type="button">
+              <span class="visually-hidden">Следующее фото</span>
             </button>
-          </li>
-          <li class="slider-pagination-item">
-            <button class="slider-pagination-button" type="button">
-              <span class="visually-hidden">Карамельное мороженое</span>
-            </button>
-          </li>
-          </li>
-        </ol>
-      </section>
+          </div>
 
-                -->
+            <ol class="slider-pagination">
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button slider-pagination-button-current" type="button">
+                  <span class="visually-hidden">Клубничное мороженое</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">Сливочное мороженое</span>
+                </button>
+              </li>
+              <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">
+                  <span class="visually-hidden">Карамельное мороженое</span>
+                </button>
+              </li>
+              </li>
+            </ol>
+          </div>
 
+          </li>
+            <li class="advantages-item visually-hidden">
+              <div class="advantages">
+                <h3 class="advantages-title">Сливочное мороженое со вкусом банана</h3>
+                <p class="advantages-description">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.</p>
+                <button class="button-white button">Заказать</button>
+              </div>
+              <div class="advantages-images">
+                <img src="images/creamy-ice-cream.png" alt="мороженое">
               </div>
             </li>
+
+
+            <li class="advantages-item visually-hidden">
+              <div class="advantages">
+                <h3 class="advantages-title">Карамельный пломбир с маршмеллоу</h3>
+                <p class="advantages-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.</p>
+                <button class="button-white button">Заказать</button>
+              </div>
+              <div class="advantages-images">
+                <img src="images/caramel-ice-cream.png" alt="мороженое">
+              </div>
+            </li>
+
           </ul>
           <ul class="arrow">
             <li class="arrow-item arrow--left"></li>
@@ -296,18 +317,18 @@
               <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
                 <p class="field-group appointment-form-date">
                   <label class="form-label" for="appointment-date">Дата</label>
-                  <input type="date" id="appointment-date" name="appointment-date" placeholder="01.01.2020">
+                  <input class="field" type="text" id="appointment-date" name="appointment-date" placeholder="01.04.2020">
                 </p>
                 <p class="field-group appointment-form-phone">
                   <label class="form-label appointment-form" for="appointment-phone">Телефон</label>
                   <input class="field" type="text" id="appointment-phone" name="appointment-phone"
-                    placeholder="+7 800 000-00-00">
+                    placeholder="+7 800 999-00-00">
                 </p>
                 <p class="field-group appointment-form-address">
-                  <label for="form-label appointment-address">
+                  <label class="form-label" for="appointment-address">
                     Адрес
                   </label>
-                  <input class="field" type="text" id="appointment-address" name="appointment-address">
+                  <input class="field" type="text" id="appointment-address" name="appointment-address" placeholder="ул. Большая Конюшенная, 19/8">
                 </p>
                 <button class="button-red button appointment-submit" type="submit">Отправить</button>
               </form>
