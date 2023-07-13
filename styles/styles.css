@@ -104,7 +104,8 @@ body {
   border-radius: 30px;
 }
 .navigation-item:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .navigation-link:hover {
@@ -112,7 +113,8 @@ body {
 }
 
 .navigation-link:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .arrow-down {
@@ -133,7 +135,8 @@ body {
 }
 
 .arrow-down:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .arrow-down:hover .navigation-link {
@@ -188,7 +191,8 @@ body {
 }
 
 .breadarumbs-item:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .breadarumbs-item:last-child {
@@ -251,6 +255,88 @@ top: 10px;
   justify-content: space-between;
 }
 
+.range-scale {
+  position: relative;
+  height: 2px;
+  margin-bottom: 16px;
+  background-color: rgba(86, 92, 102, 0.3);
+  border-radius: 2px;
+  top: 8px;
+    left: 1px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 2px;
+  background-color: rgba(86, 92, 102, 1);
+}
+
+
+.range-toggle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #FCFCFC;
+  border: 1px solid #2D3440;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.range-toggle:active,
+.range-toggle:focus {
+  outline: 2px solid rgba(86, 92, 102, 1);
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-filter-label {
+  display: flex;
+  margin-right: 5px;
+}
+
+.range-input {
+  width: 30px;
+  padding: 0 2px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  appearance: textfield;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+
+.catalog-filter-group {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  border: none;
+}
+
+
 .popularity {
   position: relative;
   padding: 8px 24px;
@@ -274,6 +360,8 @@ top: 10px;
   padding: 8px 24px;
   border-radius: 30px;
   background: rgba(252, 252, 252, 0.3);
+  width: 196px;
+  top: 7px;
 }
 
 .fillers-button {
@@ -354,6 +442,10 @@ top: 10px;
   background: url("../images/sweet-mailings.png");
   border-radius: 16px;
 }
+.field-mail {
+  width: 332px;
+}
+
 
 .newsletter-border {
   background-color: #FFFFFF;
@@ -428,9 +520,8 @@ top: 10px;
 
 .appointment-submit {
   grid-column: 1 / -1;
-  justify-self:center;
+  justify-self: center;
   margin-top: 14px;
-
 }
 
 .form-label {
@@ -464,10 +555,12 @@ top: 10px;
 .field:hover,
 .field:focus {
   outline: 0.5;
-cursor: pointer;
+  cursor: pointer;
 }
 
-
+.field:focus {
+  outline: 2px solid #dbb590;
+}
 
 
 .appointment-form .info {
@@ -582,7 +675,8 @@ cursor: pointer;
 }
 
 .logo:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 
@@ -663,7 +757,8 @@ cursor: pointer;
 }
 
 .slider-button:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .slider-pagination {
@@ -701,7 +796,8 @@ cursor: pointer;
 }
 
 .slider-pagination-button:focus {
-  outline: 0.5;
+  background-color: #FF7799;
+  outline: none;
 }
 
 .slider-pagination-button-current {
@@ -908,7 +1004,8 @@ cursor: pointer;
 }
 
 .product-card-bask:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 
@@ -988,7 +1085,8 @@ cursor: pointer;
 }
 
 .button:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .show {
@@ -1046,7 +1144,8 @@ cursor: pointer;
 }
 
 .list-pages-button:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .button-look {
@@ -1133,7 +1232,8 @@ cursor: pointer;
 }
 
 .footer-documentation:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .footer-social {
@@ -1180,7 +1280,8 @@ cursor: pointer;
 }
 
 .footer-social-link:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .footer-htmlacademy {
@@ -1261,7 +1362,8 @@ cursor: pointer;
   opacity: 0.5;
 }
 .start-social-item:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .about-text-footer {
@@ -1277,7 +1379,8 @@ cursor: pointer;
 }
 
 .about-text-footer:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .appointment-phone {
@@ -1334,7 +1437,8 @@ cursor: pointer;
 
 .login:focus .user-link,
 .basket:focus .user-link{
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .user-item.basket:hover:before {
@@ -1353,7 +1457,8 @@ cursor: pointer;
 }
 
 .navigation-icon:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .user-item.login:before {
@@ -1371,11 +1476,14 @@ cursor: pointer;
 }
 
 .appointment-phone:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .user-item:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
+}
 
 .user-link {
   text-decoration: none;
@@ -1406,7 +1514,8 @@ cursor: pointer;
 }
 
 .user-item.basket:before:focus {
-  outline: 0.5;
+  outline: 2px solid #FCFCFC;
+  background-color: #FF7799;
 }
 
 .social-tg {
